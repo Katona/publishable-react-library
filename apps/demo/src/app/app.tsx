@@ -1,4 +1,5 @@
 import React from 'react';
+import { TestLibrary } from '@publishable-react-lib/test-library';
 
 import styles from './app.module.css';
 
@@ -13,6 +14,7 @@ export function App() {
         <h1>Welcome to demo!</h1>
       </header>
       <main>
+        <TestLibrary />
         <h2>Resources &amp; Tools</h2>
         <p>Thank you for using and showing some ♥ for Nx.</p>
         <div className="flex github-star-container">
